@@ -1,0 +1,20 @@
+{
+  "name": "utn-proyecto-final-node",
+  "version": "1.0.0",
+  "description": "Proyecto final para el modulo de node - Curso: full stack developer - UTN - 2024",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file .env --watch index.js"
+  },
+  "author": "Marcelo Puyo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
+  }
+}
